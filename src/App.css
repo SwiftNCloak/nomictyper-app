@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap');
+
 body{
   margin: 0;
   padding: 0;
@@ -20,16 +22,17 @@ body{
 }
 
 .bubble{
-  background: whitesmoke;
+  background: #16161D;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #16161D;
+  color: whitesmoke;
   padding: 17px;
   border-radius: 12px;
   min-width: auto;
   text-align: left;
   font-size: 25px;
   line-break: auto;
+  font-family: 'Corben', cursive;
 }
 
 .textInput{

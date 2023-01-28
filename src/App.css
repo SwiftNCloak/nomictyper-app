@@ -6,12 +6,17 @@ body{
   display: flex;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .App{
   height: 100vh;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding: 7px;
 }
 
 .bubble{
@@ -24,6 +29,7 @@ body{
   min-width: auto;
   text-align: left;
   font-size: 25px;
+  line-break: auto;
 }
 
 .textInput{

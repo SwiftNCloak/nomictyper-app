@@ -14,7 +14,7 @@ function App() {
       <div className="bubble">
         {message}
       </div>
-      <input type="text" className="textInput" placeholder='Put your text' onChange={onchange} />
+      <input type="text" className="textInput" placeholder='Put your text' onChange={onchange} spellCheck="false" />
     </div>
   )
 }

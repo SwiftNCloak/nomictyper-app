@@ -8,6 +8,10 @@ body{
   display: flex;
 }
 
+::selection{
+  color: #00b140;
+}
+
 ::-webkit-scrollbar{
   display: none;
 }
@@ -29,22 +33,29 @@ body{
   padding: 17px;
   border-radius: 12px;
   min-width: auto;
-  text-align: left;
+  text-align: center;
   font-size: 25px;
   line-break: auto;
   font-family: 'Corben', cursive;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
 .textInput{
   background: #00b140;
   margin-top: 45px;
   margin-bottom: 5px;
-  color: #16161D;
+  color: #00b140;
   padding: 12px;
   border-radius: 12px;
   min-width: auto;
   text-align: center;
   border: none;
+}
+
+.textInput::placeholder{
+  color: #00b140;
 }
 
 .textInput:focus{
